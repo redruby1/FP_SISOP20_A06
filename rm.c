@@ -18,7 +18,7 @@ main (int argc, char *argv[])
         if(!strcmp(argv[2], "*"))
         {
           
-              //exit();
+ 
         }
         
         else
@@ -27,7 +27,6 @@ main (int argc, char *argv[])
           {
           unlink(argv[2])
                 break;
-                exit();
           }
         }
       }
@@ -49,9 +48,7 @@ main (int argc, char *argv[])
                 break;
             }
          }
-              exit();
       }
-      
       exit();
  }
               
